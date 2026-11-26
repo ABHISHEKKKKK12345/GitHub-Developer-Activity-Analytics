@@ -1,0 +1,5 @@
+{
+  "email:developer.old@example.invalid": "github:developer_alpha",
+  "email:developer.alpha@example.invalid": "github:developer_alpha",
+  "name:developer beta": "github:developer_beta"
+}

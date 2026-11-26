@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "GitHub Developer Activity Analytics"
+version: 1.0.0
+type: software
+authors:
+  - family-names: "Srivastava"
+    given-names: "Abhishek"
+    website: "https://www.linkedin.com/in/abhishek-srivastava-1538461b1/"
+abstract: "Python/Tkinter desktop application that analyses developer activity for a GitHub user, organisation or repository from Git commit history and exports the results as a reconciled Excel workbook."
+keywords:
+  - github
+  - git
+  - developer activity
+  - commit analytics
+  - tkinter
+  - excel
+license: MIT

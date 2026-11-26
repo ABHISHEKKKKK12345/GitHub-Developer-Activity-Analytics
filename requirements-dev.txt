@@ -1,0 +1,5 @@
+# Development tools. NOT needed to run the application.
+-r requirements.txt
+
+# Static analysis (configuration lives in pyproject.toml)
+ruff>=0.5

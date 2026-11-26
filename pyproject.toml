@@ -1,0 +1,41 @@
+# Project metadata and tool configuration.
+#
+# This is a single-file desktop application that is run from source with
+#   python GitHub_Developer_Analytics.py
+# It is not published as an installable package, so there is deliberately no [build-system]
+# table. The metadata below documents the project and its dependencies.
+
+[project]
+name = "github-developer-activity-analytics"
+version = "1.0.0"
+description = "Windows-oriented Tkinter desktop application that reports developer activity for GitHub users, organisations and repositories as an Excel workbook."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Abhishek Srivastava" }]
+license = { text = "MIT" }
+keywords = ["github", "git", "developer-activity", "commit-analytics", "tkinter", "excel"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Microsoft :: Windows",
+  "Environment :: Win32 (MS Windows)",
+  "Intended Audience :: Developers",
+]
+dependencies = [
+  "pandas>=2.2",
+  "requests>=2.31",
+  "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.5"]
+
+[project.urls]
+Author = "https://www.linkedin.com/in/abhishek-srivastava-1538461b1/"
+
+[tool.ruff]
+line-length = 135
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]

@@ -1,0 +1,29 @@
+# Normalise line endings of text files in the repository to LF on commit.
+* text=auto
+
+*.md    text eol=lf
+*.json  text eol=lf
+*.toml  text eol=lf
+*.cff   text eol=lf
+*.txt   text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+.gitignore     text eol=lf
+.gitattributes text eol=lf
+.editorconfig  text eol=lf
+
+# Windows batch files need CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# The application source was supplied with CRLF line endings. It is stored exactly as
+# supplied (no line-ending conversion) so that the committed file is byte-for-byte
+# identical to the original. Remove this line (and re-commit once) if you prefer
+# LF-normalised sources.
+GitHub_Developer_Analytics.py -text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.ico binary
+*.xlsx binary

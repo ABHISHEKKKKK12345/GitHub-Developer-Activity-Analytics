@@ -1,0 +1,60 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- PyInstaller / Windows build artefacts ----
+/build/
+/dist/
+/GitHub_Developer_Activity_Analytics.spec
+/version_info.txt
+# Optional PortableGit folder (large, third-party; never commit it)
+/PortableGit/
+
+# ---- Application runtime output (created next to the script / EXE) ----
+/logs/
+/output/
+/repositories/
+*.log
+# Generated reports can contain names, e-mail addresses and commit messages
+*.xlsx
+*.xls
+commit_details_fallback_*.csv
+selftest_*.txt
+
+# ---- Local configuration and secrets ----
+# Your real alias mapping (the *.example.json file IS tracked)
+/identity_aliases.json
+.env
+.env.*
+*.token
+*.pem
+*.key
+secrets.*
+
+# ---- Temporary files ----
+*.tmp
+*.cloning
+*.old
+*.bak
+*.swp
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---- IDE / editor ----
+.vscode/
+.idea/
+*.code-workspace
